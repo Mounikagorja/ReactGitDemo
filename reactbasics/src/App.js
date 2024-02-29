@@ -13,11 +13,21 @@ import './App.css'
 //import NameList from './Components/NameList';
 //import Stylesheet from './Components/Stylesheet';
 //import RefsDemo from './Components/RefsDemo';
-import Hoock1 from './Hello/Hoock1';
+//import Hoock1 from './Hello/Hook1';
+//import Hook2 from './Hello/Hook2';
+//import DataFeaching from './Hello/DataFetching';
+//import CounterOne from './Hello/CounterOne';
+//import UseNowPlayingMovies from './Components/Hooks/Browser';
+import Browser from './Hello/Browser';
 function App () {
   return (
     <div className="App">
-      <Hoock1/>
+      <Browser/>
+      {/*<CounterOne/>
+
+     {/* <DataFeaching/>
+      {/*<Hook2/>
+      {/*<Hoock1/>
       {/*<RefsDemo/>
       {/*<Stylesheet/>
       {/*<NameList/>
@@ -31,8 +41,10 @@ function App () {
       <Welcome name ="clerk" heroname = "superman"/>
   <Welcome name ="mavin" heroname = "superwomen"/>*/}
     </div>
-  );
-};
+
+);
+}
+
 export default App;
 
 
