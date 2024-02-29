@@ -18,11 +18,10 @@ import './App.css'
 //import DataFeaching from './Hello/DataFetching';
 //import CounterOne from './Hello/CounterOne';
 //import UseNowPlayingMovies from './Components/Hooks/Browser';
-import Browser from './Hello/Browser';
 function App () {
   return (
     <div className="App">
-      <Browser/>
+      
       {/*<CounterOne/>
 
      {/* <DataFeaching/>
